@@ -16,6 +16,6 @@
 
 #other files and folders
 node_modules/
-packages-lock.json
+package-lock.json
 tailwind.config.js
 src/
