@@ -1,0 +1,27 @@
+input[type="checkbox"]:checked~header>section>label::after {
+  transform: translateX(2rem);
+}
+
+article:first-of-type>p::after {
+  content: "199.99";
+}
+
+article:nth-of-type(2)>p::after {
+  content: "249.99"
+}
+
+article:last-of-type>p::after {
+  content: "399.99"
+}
+
+input[type="checkbox"]:checked~main>article:first-of-type>p::after {
+  content: "19.99"
+}
+
+input[type="checkbox"]:checked~main>article:nth-of-type(2)>p::after {
+  content: "24.99"
+}
+
+input[type="checkbox"]:checked~main>article:last-of-type>p::after {
+  content: "39.99"
+}

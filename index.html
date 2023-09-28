@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>Frontend Mentor | Pricing component with toggle</title>
+  </head>
+  <body
+    class="w-screen min-h-100svh bg-myVeryLightGrayishBlue bg-patterns lg:bg- bg-topBottom bg-no-repeat bg-x-1/2 lg:bg-x-1/4 font-mine font-bold py-16 px-8">
+    <input type="checkbox" id="toggle-btn" class="hidden" />
+    <header class="w-full flex flex-col gap-y-10 pb-20">
+      <h1 class="text-myGrayishBlue text-center text-3xl">Our Pricing</h1>
+      <section class="w-full flex justify-center items-center gap-x-6">
+        <h2 class="text-lg text-myLightGrayishBlue">Annually</h2>
+        <label
+          for="toggle-btn"
+          class="w-16 h-8 rounded-3xl bg-to-r bg-gradient-to-r from-myGrayishBlue to-myVioletBlue relative p-1 shrink-0 after:w-6 after:h-6 after:rounded-full after:bg-white after:absolute after:left-1 after:top-1 after:transition-transform after:duration-200 hover:opacity-50">
+        </label>
+        <h2 class="text-lg text-myLightGrayishBlue">Monthly</h2>
+      </section>
+    </header>
+    <main
+      class="w-full max-w-lg flex flex-col gap-y-8 m-auto lg:flex-row lg:max-w-5xl">
+      <article
+        class="w-full p-8 rounded-lg bg-white flex flex-col justify-center items-center gap-y-8 shadow-xl">
+        <h2 class="text-lg text-myGrayishBlue">Basic</h2>
+        <p class="text-6xl text-myDarkGrayishBlue max-sm:text-4xl">
+          <span class="text-4xl align-middle relative -top-1 -left-1">
+            &dollar;
+          </span>
+        </p>
+        <div class="w-full flex flex-col border-t">
+          <p class="text-center text-myGrayishBlue py-3 border-b">
+            500 GB Storage
+          </p>
+          <p class="text-center text-myGrayishBlue py-3 border-b">
+            2 Users Allowed
+          </p>
+          <p class="text-center text-myGrayishBlue py-3 border-b">
+            Send up to 3 GB
+          </p>
+        </div>
+        <button
+          class="w-full rounded-md bg-gradient-to-r from-myGrayishBlue to-myVioletBlue text-myVeryLightGrayishBlue py-2 hover:from-white hover:to-white hover:text-myVioletBlue hover:outline hover:outline-1 hover:outline-myVioletBlue">
+          LEARN MORE
+        </button>
+      </article>
+      <article
+        class="w-full p-6 rounded-lg bg-gradient-to-r from-myGrayishBlue to-myVioletBlue flex flex-col justify-center items-center gap-y-8 shadow-xl lg:scale-y-110 lg:pb-14">
+        <h2 class="text-lg text-myVeryLightGrayishBlue">Professional</h2>
+        <p class="text-6xl text-myVeryLightGrayishBlue max-sm:text-4xl">
+          <span class="text-4xl align-middle relative -top-1 -left-1">
+            &dollar;
+          </span>
+        </p>
+        <div class="w-full flex flex-col border-t">
+          <p class="text-center text-myVeryLightGrayishBlue py-3 border-b">
+            1 TB Storage
+          </p>
+          <p class="text-center text-myVeryLightGrayishBlue py-3 border-b">
+            5 Users Allowed
+          </p>
+          <p class="text-center text-myVeryLightGrayishBlue py-3 border-b">
+            Send up to 10 GB
+          </p>
+        </div>
+        <button
+          class="w-full rounded-md bg-myVeryLightGrayishBlue text-myVioletBlue py-2 tracking-wider hover:bg-transparent hover:text-myVeryLightGrayishBlue hover:outline hover:outline-1 hover:outline-myVeryLightGrayishBlue">
+          LEARN MORE
+        </button>
+      </article>
+      <article
+        class="w-full p-8 rounded-lg bg-white flex flex-col justify-center items-center gap-y-8 shadow-xl">
+        <h2 class="text-lg text-myGrayishBlue">Master</h2>
+        <p class="text-6xl text-myDarkGrayishBlue max-sm:text-4xl">
+          <span class="text-4xl align-middle relative -top-1 -left-1">
+            &dollar;
+          </span>
+        </p>
+        <div class="w-full flex flex-col border-t">
+          <p class="text-center text-myGrayishBlue py-3 border-b">
+            2 TB Storage
+          </p>
+          <p class="text-center text-myGrayishBlue py-3 border-b">
+            10 Users Allowed
+          </p>
+          <p class="text-center text-myGrayishBlue py-3 border-b">
+            Send up to 20 GB
+          </p>
+        </div>
+        <button
+          class="w-full rounded-md bg-gradient-to-r from-myGrayishBlue to-myVioletBlue text-myVeryLightGrayishBlue py-2 hover:from-white hover:to-white hover:text-myVioletBlue hover:outline hover:outline-1 hover:outline-myVioletBlue">
+          LEARN MORE
+        </button>
+      </article>
+    </main>
+  </body>
+</html>
