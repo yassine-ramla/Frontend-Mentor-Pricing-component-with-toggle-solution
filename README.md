@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/responsive-pricing-component-with-toggle-with-just-html-and-css-H03UFEkMtN)
+- Live Site URL: [live site URL](https://yassine-ramla.github.io/Frontend-Mentor-Pricing-component-with-toggle-solution/)
 
 ## My process
 
